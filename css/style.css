@@ -17,6 +17,17 @@ p{
     color: rgb(131, 131, 131);
 }
 
+a{
+    text-decoration: none;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+ul{
+    margin-bottom: 0;
+}
 
 /* <!-- Banner Section Start --> */
 .main-banner {
@@ -160,4 +171,120 @@ p{
 .card-body{
     padding: 0;
 }
+.content-card-option{
+    border-top: 1px solid rgb(219, 219, 219);
+}
+.content-card-option span{
+    padding-left: 5px;
+}
+.popular-course-shape img{
+    position: absolute;
+}
+.popular-course-shape .dot-07{
+    top: 0;
+    right: 0;
+}
 /* <!-- Popular Course Section --> */
+
+/* <!-- Feature Question Section --> */
+.card-content-bg-a{
+    height: 72px;
+    width: 72px;
+    background: rgba(0,175,146,0.1);
+}
+.card-feature .card-content-icon-1{
+    font-size: 2.3rem;
+    color: #00af91;
+}
+.card-content-bg-b{
+    height: 72px;
+    width: 72px;
+    background: rgba(16,137,255,0.1);
+}
+.card-feature .card-content-icon-2{
+    font-size: 2.3rem;
+    color: #1089ff;
+}
+.card-content-bg-c{
+    height: 72px;
+    width: 72px;
+    background: rgba(241,92,76,0.1);
+}
+.card-feature .card-content-icon-3{
+    font-size: 2.3rem;
+    color: #f15c4c;
+}
+/* <!-- Feature Question Section --> */
+
+/* <!-- Learning Step Section --> */
+.items-number{
+    background-color: #1089ff14;
+    height: 72px;
+    width: 72px;
+    margin-right: 16px;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.items-number span{
+    font-size: 1.5rem;
+    align-items: center;
+    color: #1089ff;
+    font-weight: 600;
+}
+/* <!-- Learning Step Section --> */
+
+/* <!-- Learning Step Section --> */
+.learning-step-img{
+    padding-top: 80px;
+    padding-left: 80px;
+    z-index: 2;
+}
+.learning-step-shape-a{
+    position: absolute;
+    margin-top: -472px;
+    margin-left: 100px
+}
+.learning-step-shape-b{
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 300px;
+    z-index: -2;
+}
+/* <!-- Learning Step Section --> */
+
+/* <!-- Student Review Section --> */
+.review-star li{
+    list-style: none;
+    color: #ff7a1a;
+}
+.testimonial-user-star ul{
+    float: right;
+}
+.testimonial-text{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: rgb(75, 75, 75);
+}
+/* <!-- Student Review Section --> */
+
+/* <!-- Instructor Intro Section --> */
+.teacher-single-name{
+    border-left: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    border-radius: 0 0 5px 5px;
+}
+.teacher-single-card img{
+    width: 100%;
+}
+/* <!-- Instructor Intro Section --> */
+
+.instructor-head{
+    padding-top: 2rem;
+}
+.teacher-btn-text{
+    font-size: 1rem;
+    font-weight: 600;
+}
