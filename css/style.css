@@ -281,6 +281,7 @@ ul{
 }
 /* <!-- Instructor Intro Section --> */
 
+/* <!-- Help Section --> */
 .instructor-head{
     padding-top: 2rem;
 }
@@ -288,3 +289,21 @@ ul{
     font-size: 1rem;
     font-weight: 600;
 }
+/* <!-- Help Section --> */
+
+/* <!-- Newsletter Section --> */
+.newsletter-card{
+    padding: 40px 50px;
+    background: #fff;
+    border: 2px solid #ebebf2;
+    border-radius: 10px;
+    margin-bottom: -125px;
+}
+/* <!-- Newsletter Section --> */
+
+/* <!-- Footer Section --> */
+.footer-section{
+    padding-top: 220px;
+    background-color: #202020;
+}
+/* <!-- Footer Section --> */
