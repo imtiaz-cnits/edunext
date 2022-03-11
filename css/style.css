@@ -27,7 +27,18 @@ img, svg {
 
 ul{
     margin-bottom: 0;
+    padding-left: 0;
 }
+
+/* <!-- Main Navbar Start --> */
+.nav-link{
+    font-weight: 600;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: #1089ff;
+}
+/* <!-- Main Navbar Start --> */
+
 
 /* <!-- Banner Section Start --> */
 .main-banner {
@@ -60,7 +71,6 @@ ul{
     align-items: center;
     border-radius: 7px;
     box-shadow: 0px 32px 60px rgb(2 100 237 / 8%);
-
 }
 .search-icon{
     font-size: 1.7rem;
@@ -109,8 +119,8 @@ ul{
     color: #1089ff;
 }
 .categories-item-1 .browse-category-1 {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5.313rem;
+    margin-right: 5.313rem;
     padding-top: 30px;
     padding-bottom: 30px;
     border: 1.5px solid #1088ff70;
@@ -120,8 +130,8 @@ ul{
     color: #ffc91b;
 }
 .categories-item-2 .browse-category-2 {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5.313rem;
+    margin-right: 5.313rem;
     padding-top: 30px;
     padding-bottom: 30px;
     border: 1.5px solid #ffca1b81;
@@ -131,8 +141,8 @@ ul{
     color: #ff7a1a;
 }
 .categories-item-3 .browse-category-3 {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5.313rem;
+    margin-right: 5.313rem;
     padding-top: 30px;
     padding-bottom: 30px;
     border: 1.5px solid #ff791a93;
@@ -142,8 +152,8 @@ ul{
     color: #00af91;
 }
 .categories-item-4 .browse-category-4 {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5.313rem;
+    margin-right: 5.313rem;
     padding-top: 30px;
     padding-bottom: 30px;
     border: 1.5px solid #00af9291;
@@ -305,5 +315,51 @@ ul{
 .footer-section{
     padding-top: 220px;
     background-color: #202020;
+}
+.footer-social-icons ul{
+    padding-left: 0;
+}
+.footer-social-icons ul li{
+    list-style: none;
+    margin-right: 12px;
+}
+.footer-social-icons ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+    border-radius: 4px;
+    height: 36px;
+    width: 36px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.footer-social-icons ul li a:hover{
+    background-color: #1089ff;
+    transition: all 0.3s;
+    border: 1px solid #1089ff;
+}
+.footer-menus ul li{
+    list-style: none;
+}
+.footer-menus ul li a{
+    color: rgb(131, 131, 131);
+    line-height: 1.5;
+    padding: 4px;
+    display: block;
+}
+.footer-credit{
+    border-top: 1px solid #4b4b57;
+}
+.footer-credit-gotop a{
+    font-size: 1rem;
+    color: rgb(131, 131, 131);
+}
+.gotop-icon{
+    padding-top: 3px;
+    font-size: 1.3rem;
+}
+.footer-credit-gotop a:hover{
+    color: #fff;
 }
 /* <!-- Footer Section --> */
