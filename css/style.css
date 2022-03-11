@@ -363,3 +363,27 @@ ul{
     color: #fff;
 }
 /* <!-- Footer Section --> */
+
+
+
+
+
+/* ============ABOUT US PAGE CSS========== */
+
+/* User Avatar Css */
+.user-avatar img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+/* User Avatar Css */
+
+/* <!-- Breadcrumbs --> */
+.breadcrumb-item a{
+    color: #202020;
+}
+/* <!-- Breadcrumbs --> */
+
+/* <!-- Head Content Section --> */
+
+/* <!-- Head Content Section --> */
