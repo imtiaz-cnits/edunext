@@ -407,12 +407,27 @@ ul{
 }
 /* <!-- Head Content Section --> */
 
-/* <!-- Mission Section --> */
+/* ============ABOUT US PAGE CSS========== */
 
-/* <!-- Mission Section --> */
 
-/* <!-- Our Clients Section --> */
-/* <!-- Our Clients Section --> */
 
-/* <!-- Instructor Section --> */
-/* <!-- Instructor Section --> */
+/* ============Contact PAGE CSS========== */
+.contact-section-1{
+    padding: 100px 0;
+}
+.contact-intro-shape .shape-01{
+    top: 125px;
+    left: -45px;
+}
+.contact-intro-shape .shape-02{
+    bottom: -50px;
+    right: 45px;
+}
+.contact-intro-shape img{
+    position: absolute;
+    z-index: -1;
+}
+.contact-location li{
+    list-style: none;
+}
+/* ============Contact PAGE CSS========== */
