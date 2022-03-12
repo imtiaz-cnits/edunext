@@ -386,4 +386,33 @@ ul{
 
 /* <!-- Head Content Section --> */
 
+.about-section-1{
+    padding: 100px 0;
+}
+.about-intro-shape .shape-01{
+    top: -45px;
+    left: 5px;
+}
+.about-intro-shape .shape-02{
+    bottom: -30px;
+    right: 30px;
+}
+.about-intro-shape img{
+    position: absolute;
+    z-index: -1;
+}
+.footer-about-page {
+    padding-top: 100px;
+    background-color: #202020;
+}
 /* <!-- Head Content Section --> */
+
+/* <!-- Mission Section --> */
+
+/* <!-- Mission Section --> */
+
+/* <!-- Our Clients Section --> */
+/* <!-- Our Clients Section --> */
+
+/* <!-- Instructor Section --> */
+/* <!-- Instructor Section --> */
