@@ -15,6 +15,7 @@ body {
 
 p{
     color: rgb(131, 131, 131);
+    margin-bottom: 0;
 }
 
 a{
@@ -431,3 +432,75 @@ ul{
     list-style: none;
 }
 /* ============Contact PAGE CSS========== */
+
+
+/* ============Get In Touch CSS========== */
+.getin-touch-section{
+    padding: 100px 0;
+}
+.contact-info{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.contact-address-icon.primary-bg{
+    background-color: rgba(16,137,255,0.1);
+    color: #1089ff;
+}
+.contact-address-icon{
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+.contact-address-text h6{
+    color: #908fa5;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.contact-address-text .address-detail p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #202029;
+}
+.contact-address-icon.envelop-bg{
+    background-color: rgba(255,122,26,0.1);
+    color: #ff7a1a;
+}
+.contact-address-icon.phone-bg{
+    background-color: rgba(0,175,145,0.1);
+    color: #00af91;
+}
+.contact-address-text h5{
+    font-size: 1.6rem;
+    color: #4e4e4e;
+}
+.form-area{
+    position: relative;
+    background-color: white;
+    padding: 26px;
+    border-radius: 5px;
+}
+.form-area label{
+    font-size: 14px;
+    line-height: 21px;
+    color: #202020;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.form-area form input{
+    border: 1.2px solid rgba(144,143,165,0.4);
+    padding: 15px 20px;
+}
+.send-button button{
+    padding: 14px 25px;
+    font-size: 1.1rem;
+    margin-bottom: -10px;
+}
+/* ============Get In Touch CSS========== */
